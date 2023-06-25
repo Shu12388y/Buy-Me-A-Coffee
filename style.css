@@ -138,10 +138,16 @@ a {
   margin-top: -2rem;
 }
 */ @media screen and (min-width: 200px) and (max-width: 299px) {
-  
+
 }
 
 @media screen and (min-width: 300px) and (max-width: 780px) {
+
+
+  .hide{
+    visibility: hidden;
+  }
+
   .icon__logo {
     width: 2rem;
     max-height: 3rem;

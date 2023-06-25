@@ -7,6 +7,10 @@
     <title>Buy Me a Coffee</title>
     <link rel="stylesheet" href="style.css" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
       rel="shortcut icon"
       href="./public/images/bmc-logo.svg"
       type="image/x-icon"
@@ -18,7 +22,7 @@
       <i class="fa-sharp fa-solid fa-question" style="color: #ffffff"></i>
     </div> -->
     <header>
-      <nav>
+      <nav class="animate__animated animate__backInDown">
         <div class="nav__bar">
           <div class="left__nav">
             <div class="svg__icon">
@@ -29,7 +33,7 @@
                 srcset=""
               />
             </div>
-            <div class="faq"><a href="http://">FAQ</a></div>
+            <a href="pages/faq.html"><div class="faq">FAQ</div></a>
           </div>
           <div class="right__nav">
             <div class="login"><a href="http://">Log in</a></div>
@@ -40,20 +44,35 @@
     </header>
     <main>
       <section class="body__upper">
-        <h1 class="header__title">
+        <h1
+          class="header__title animate__animated animate__lightSpeedInRight animate__delay-1s"
+        >
           A supporter is worth a <br />
           thousand followers.
         </h1>
-        <h3 class="sub__title">
+        <h3
+          class="sub__title animate__animated animate__lightSpeedInLeft animate__delay-2s"
+        >
           Accept donations. Start a membership. Sell anything you like. <br />
           It’s easier than you think
         </h3>
-        <div class="form__header">
+        <div
+          class="form__header animate__animated animate__zoomIn animate__delay-3s"
+        >
           <span class="formtitle">buymeacoffee.com/</span>
           <input type="text" placeholder="yourname" />
         </div>
-        <button class="start__page" type="submit">Start my page</button>
-        <div class="lower__title">It’s free, and takes less than a minute.</div>
+        <button
+          class="start__page animate__animated animate__fadeInRight animate__delay-4s"
+          type="submit"
+        >
+          Start my page
+        </button>
+        <div
+          class="lower__title animate__animated animate__backInDown animate__delay-4s"
+        >
+          It’s free, and takes less than a minute.
+        </div>
       </section>
       <section class="donation">
         <h2 class="donation__header">DONATIONS</h2>
@@ -68,7 +87,7 @@
         <div class="donation__img__1">
           <img
             id="img__1"
-            class="img__1"
+            class="img__1 hide"
             src="./public/images/onetime-support-new.png"
             alt=""
             srcset=""
@@ -83,7 +102,7 @@
           Share exclusive content, or just give them a way to support your work
           on an ongoing basis.
         </h3>
-        <div class="donation__img__1">
+        <div class="donation__img__1 donation_1 hide">
           <img
             id="img__2"
             class="img__1"
@@ -101,7 +120,7 @@
           Whether it’s a 1-1 Zoom call, art commissions, or an ebook, Extras is
           for you.
         </h3>
-        <div class="donation__img__1">
+        <div class="donation__img__1 donation_2 hide">
           <img
             id="img__3"
             class="img__1"
@@ -290,9 +309,8 @@
               <div class="app__data">
                 <div class="app__datas">IOS</div>
                 <div class="app__datas">Android</div>
-
               </div>
-                <div class="footer__data" id="apps">Apps</div>
+              <div class="footer__data" id="apps">Apps</div>
               <div class="footer__data">Resources</div>
               <div class="footer__data">Privacy</div>
               <div class="footer__data">Terms</div>
