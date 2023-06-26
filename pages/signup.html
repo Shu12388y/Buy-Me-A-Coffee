@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up-Buy Me a Coffee</title>
-    <link rel="stylesheet" href="loginpage.css" />
+    <title>Login-Buy Me a Coffee</title>
+    <link rel="stylesheet" href="signup.css" />
     <link
       rel="shortcut icon"
       href="/public/images/bmc-logo.svg"
@@ -83,23 +83,32 @@
           </div>
           <div class="signup">
             <div class="info">Don't have an account?</div>
-            <a href="./signup.html"><div class="but__signin">Sign Up</div></a>
+            <a href="/pages/loginpage.html">
+              <div class="but__signin">Login</div></a
+            >
           </div>
         </div>
       </nav>
     </header>
     <main>
       <section>
-        <h1 class="header">Welcome back</h1>
+        <h1 class="header">Sign up</h1>
         <form
           method="POST"
           enctype="application/x-www-form-urlencoded"
           action="/login?__cf_chl_f_tk=vFnt23tTVHXE2.2k1MvTEDczvvHrvp_hyF5xn6aBYGY-1687705515-0-gaNycGzNCZA"
         >
           <input type="email" name="email" id="email" placeholder="Email" />
+          <input
+            type="password"
+            name="email"
+            id="email"
+            placeholder="Password"
+          />
+
           <button type="submit">Continue with email</button>
         </form>
-        <div class="login__side">or login with</div>
+        <div class="login__side">or signup with</div>
 
         <div class="login_icon">
           <div class="containers">
@@ -125,6 +134,10 @@
             <span><img src="/public/images/twitter.png" alt="" /></span>
             Continue with Twitter
           </div>
+        </div>
+        <div class="infomer">
+          By signing up, you agree to the Terms and Privacy Policy. Creators or
+          content that violate our terms will be unpublished.
         </div>
       </section>
     </main>
