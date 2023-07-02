@@ -482,8 +482,36 @@ span {
   }
 }
 
-
-
+@media screen and (min-width: 481px) and (max-width: 780px) {
+  .nav__bar {
+    gap: 18rem;
+    width: 100vw;
+  }
+  .header__data {
+    text-align: left;
+    font-size: 2.7rem;
+  }
+  .about {
+    padding: 2rem;
+  }
+  .about > img {
+    width: 32rem;
+    max-height: 40rem;
+    object-fit: cover;
+    /* min-height: 30rem; */
+    padding: 0%;
+  }
+  .contents {
+    padding: 1rem;
+  }
+  .sign__svg {
+    margin-left: 0rem;
+  }
+  .lower {
+    margin-left: 6rem;
+    width: 20rem;
+  }
+}
 
 @media screen and (min-width: 781px) and (max-width: 950px) {
   .nav__bar {
@@ -513,4 +541,11 @@ span {
     width: 30rem;
     margin-left: 10rem;
   }
+}
+
+
+@media screen and (min-width:951px) and (max-width:1300px){
+  
+
+  
 }
