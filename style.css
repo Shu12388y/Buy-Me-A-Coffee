@@ -40,6 +40,13 @@ a {
   /* font-display: bold; */
   box-sizing: border-box;
 }
+
+.donation__img__1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .faq,
 .creator {
   position: relative;
@@ -2041,11 +2048,7 @@ a {
     margin-bottom: 5rem;
     object-fit: cover;
   }
-  #img__2,
-  #img__1,
-  #img__3 {
-    margin-left: 26rem;
-  }
+
   #img__3 {
     padding-bottom: 0rem;
   }
