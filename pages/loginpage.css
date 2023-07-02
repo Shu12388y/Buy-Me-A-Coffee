@@ -251,7 +251,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 47rem;
+    gap: 35rem;
     padding: 1rem;
     font-family: var(--font-family);
     font-size: 1rem;
@@ -260,6 +260,7 @@ a {
   .info {
     display: block;
     font-weight: 400;
+    width: 12rem;
   }
   .but__signin {
     border: 2.6px solid black;
