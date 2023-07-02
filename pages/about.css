@@ -543,14 +543,14 @@ span {
   }
 }
 
-@media screen and (min-width: 951px) and (max-width: 1300px) {
+@media screen and (min-width: 951px) and (max-width: 1080px) {
   .nav__bar {
     gap: 42rem;
     width: 100vw;
   }
 
   .header__data {
-    text-align: left;
+    text-align: center;
     font-size: 2.8rem;
   }
   .about > img {
@@ -570,6 +570,32 @@ span {
   }
   .lower {
     width: 30rem;
-    margin-left: 15rem;
+    margin-left: 16rem;
+  }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1300px) {
+  .about > img {
+    padding: 1rem;
+    width: 77rem;
+    max-height: 50rem;
+    /* min-height: 20rem; */
+  }
+  .about {
+    padding: 2rem;
+  }
+  .nav__bar {
+    gap: 52rem;
+    width: 100vw;
+  }
+  .contents {
+    padding: 2rem;
+  }
+  .sign__svg {
+    margin-left: 0rem;
+  }
+  .lower {
+    width: 30rem;
+    margin-left: 20rem;
   }
 }
