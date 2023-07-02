@@ -543,10 +543,9 @@ span {
   }
 }
 
-
-@media screen and (min-width:951px) and (max-width:1300px){
+@media screen and (min-width: 951px) and (max-width: 1300px) {
   .nav__bar {
-    gap: 32rem;
+    gap: 42rem;
     width: 100vw;
   }
 
@@ -556,11 +555,12 @@ span {
   }
   .about > img {
     padding: 1rem;
-    width: 50rem;
-    min-height: 20rem;
+    width: 60rem;
+    max-height: 50rem;
+    /* min-height: 20rem; */
   }
   .about {
-    padding: 1rem;
+    padding: 2rem;
   }
   .contents {
     padding: 2rem;
@@ -570,8 +570,6 @@ span {
   }
   .lower {
     width: 30rem;
-    margin-left: 10rem;
+    margin-left: 15rem;
   }
-
-  
 }
