@@ -485,7 +485,28 @@ a {
   .next {
     padding: 1rem 4rem;
   }
+  .infobox__content {
+    font-size: 1.3rem;
+  }
 }
 
-
-
+@media screen and (min-width: 1081px) and (max-width: 1380px) {
+  .nav__bar {
+    gap: 52rem;
+    width: 100vw;
+  }
+  .signup {
+    width: 5rem;
+  }
+  .faq::after {
+    left: -59%;
+    /* opacity: 0.4; */
+    top: -39%;
+  }
+  .next {
+    padding: 1rem 4rem;
+  }
+  .infobox__content {
+    font-size: 1.6rem;
+  }
+}
