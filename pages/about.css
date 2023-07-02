@@ -243,7 +243,7 @@ span {
 
 /* =========================================================================== */
 
-@media screen and (min-width: 300px) and (max-width: 780px) {
+@media screen and (min-width: 300px) and (max-width: 480px) {
   .icon__logo {
     width: 2rem;
     max-height: 3rem;
@@ -479,5 +479,38 @@ span {
     width: 15rem;
     max-height: 8rem;
     padding-bottom: 3rem;
+  }
+}
+
+
+
+
+@media screen and (min-width: 781px) and (max-width: 950px) {
+  .nav__bar {
+    gap: 32rem;
+    width: 100vw;
+  }
+
+  .header__data {
+    text-align: left;
+    font-size: 2.8rem;
+  }
+  .about > img {
+    padding: 1rem;
+    width: 50rem;
+    min-height: 20rem;
+  }
+  .about {
+    padding: 1rem;
+  }
+  .contents {
+    padding: 2rem;
+  }
+  .sign__svg {
+    margin-left: 0rem;
+  }
+  .lower {
+    width: 30rem;
+    margin-left: 10rem;
   }
 }
